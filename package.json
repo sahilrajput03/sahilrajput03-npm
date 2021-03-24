@@ -1,0 +1,13 @@
+{
+  "name": "sahilrajput03",
+  "version": "1.0.10",
+  "bin": "./bin/sahilrajput03.js",
+  "description": "",
+  "scripts": {
+    "start": "node bin/sahilrajput03.js",
+    "dev": "npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
