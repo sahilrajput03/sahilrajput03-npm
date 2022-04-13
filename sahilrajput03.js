@@ -2,10 +2,9 @@
 import boxen from "boxen"
 import chalk from "chalk"
 
-const cyan = "#00AB9E"
 const name = chalk.bold.cyan("Sahil Rajput")
 
-const long_text = chalk.hex(cyan)(`
+const long_text = chalk.cyan(`
 Hello, this is Sahil Rajput.
 I am a fullstack developer.
 I like to test and explore new techonlogies...!!
