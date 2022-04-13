@@ -1,9 +1,6 @@
 #!/usr/bin/env node
 import boxen from "boxen"
 import chalk from "chalk"
-import clear from "clear"
-import open from "open"
-import inquirer from "inquirer"
 
 const cyan = "#00AB9E"
 const name = chalk.bold.cyan("Sahil Rajput")
