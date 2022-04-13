@@ -5,7 +5,7 @@
   "type": "module",
   "description": "",
   "scripts": {
-    "start": "node bin/sahilrajput03.js",
+    "dev": "nodemon bin/sahilrajput03.js",
     "roll": "git add . && git commit -m 'update'; npm version patch && npm publish && git push"
   },
   "keywords": [],
