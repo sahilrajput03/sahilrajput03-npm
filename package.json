@@ -1,12 +1,12 @@
 {
   "name": "sahilrajput03",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "bin": "./sahilrajput03.js",
   "type": "module",
   "description": "",
   "scripts": {
     "start": "node bin/sahilrajput03.js",
-    "roll": "git add . && git commit -m 'update' && npm version patch && npm publish && git push"
+    "roll": "git add . && git commit -m 'update'; npm version patch && npm publish && git push"
   },
   "keywords": [],
   "author": "",
