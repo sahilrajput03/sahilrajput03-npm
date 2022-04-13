@@ -1,13 +1,21 @@
 {
   "name": "sahilrajput03",
   "version": "1.0.10",
-  "bin": "./bin/sahilrajput03.js",
+  "bin": "./sahilrajput03.js",
+  "type": "module",
   "description": "",
   "scripts": {
     "start": "node bin/sahilrajput03.js",
-    "dev": "npm publish"
+    "roll": "git add . && git commit -m 'update' && npm publish && git push"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "^5.0.1",
+    "clear": "^0.1.0",
+    "inquirer": "^8.2.2",
+    "open": "^8.4.0"
+  }
 }
